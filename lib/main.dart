@@ -10,12 +10,15 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: Text("Tugas Pertama Flutter"),
         ),
-        body: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            Center(child: Text("Giovanni Iqbal Rahmadan")),
-            Center(child: Text("2031710002"))
-          ],
+        body: Center(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: <Widget>[
+              Text("Giovanni Iqbal Rahmadan"),
+              Text("2031710002"),
+              Text("Terimakasih")
+            ],
+          ),
         ),
       ),
     );
